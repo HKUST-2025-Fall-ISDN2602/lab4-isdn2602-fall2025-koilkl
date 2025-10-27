@@ -11,6 +11,7 @@ figure(1); clf;
 imshow(lorem_img);
 title('Original image');
 
+lorem_img= lorem_img';
 % run-length encode
 run_length_code = runlength_encode(lorem_img);
 % convert the binary array into an decimal array of run lengths
